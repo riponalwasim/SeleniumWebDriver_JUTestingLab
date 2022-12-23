@@ -62,5 +62,4 @@ public class LoginTest_DataDrivenTesting extends SeleniumTestCase_Common {
 		  Thread.sleep(400);
 		  
 	  }
-
 }
