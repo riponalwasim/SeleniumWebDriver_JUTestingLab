@@ -2,16 +2,15 @@
 
 <suite name="TestSuite_CrossBrowser">
 
- 	<test name="FirefoxTest" enabled="false">
+ 	<test name="FirefoxTest" enabled="true">
  		<parameter name="browser" value="firefox" />
  		<classes>
  			<!-- <class name="SeleniumTest.SimpleGoogleSearchTest" />-->
  			<class name="SeleniumTest.LoginTest" />
- 			
- 			
  		</classes>
  	</test>
- 	<test name="ChromeTest" enabled="false">
+ 	
+ 	<test name="ChromeTest" enabled="true">
  		<parameter name="browser" value= "chrome" />
  		<classes>
  			<!-- <class name="SeleniumTest.SimpleGoogleSearchTest" />-->
@@ -20,6 +19,7 @@
  			
  		</classes>
  	</test>
+ 	
  	<test name="EdgeTest" enabled="true">
  		<parameter name="browser" value= "edge" />
  		<classes>
